@@ -2,11 +2,11 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: white;
+  background-color: indianred;
   padding-left: 20px;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Poetsen One", serif;
 }

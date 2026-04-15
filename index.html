@@ -24,25 +24,33 @@ Select ONE Additional
     <button id="mem1-button">Memory #1</button>
     <button id="mem2-button">Memory #2</button>
     <button id="mem3-button">Memory #3</button>
-    <h1>My Top 3 Memories of <span>This Year</span></h1>
+    <h1>My Top 3 Shows <span></span></h1>
     <ol>
       <li>
-        <h3 id="mem1">Memory #1</h3>
-        <p>More about this memory.</p>
+        <h3 id="mem1">Show #1</h3>
+        <p>90 day Fiance</p>
       </li>
 
       <li>
-        <h3 id="mem2">Memory #2</h3>
-        <p>More about this memory.</p>
+        <h3 id="mem2">Show #2</h3>
+        <p>Dallas Cowboy Cheerleaders </p>
       </li>
 
       <li>
-        <h3 id="mem3">Memory #3</h3>
-        <p>More about this memory</p>
+        <h3 id="mem3"> Show #3</h3>
+        <p>Bad Girls Club</p>
       </li>
+      $("h1").html("<u>My Top 3 Shows</u>");
+      $("p").html(
+        "My Top 3 Shows"
+      );
+    $("h1").css("color","rgb"(144,238,144)");
+
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+    
     <script>
 
       // ======================== Button #1
